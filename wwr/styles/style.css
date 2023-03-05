@@ -186,6 +186,60 @@ h4 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #1a2c34;
 }
+
+/*Rivers Page CSS Styling*/
+.rivers-title {
+    text-align: center;
+    background-color: #1a2c34;
+    color: white;
+    margin-top: auto;
+    padding: 20px;  
+}
+.river-title {
+    color: #0485a2;
+}
+.river-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    border-bottom: #1a2c34 solid 2px;
+}
+.river-info-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    border-bottom: #1a2c34 solid 2px;
+}
+.river-text {
+    grid-column: 1/2;
+}
+.river-image {
+    margin: 20px;
+    text-align: center;
+    border: 10px solid #0485a2;
+    box-shadow: 5px 5px 10px #1a2c34;
+}
+.river-image-2 {
+    margin: 20px;
+    text-align: center;
+    grid-column: 1/2;
+    border: 10px solid #0485a2;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #1a2c34;
+}
+.river-text-box-2 {
+    grid-column: 2/3;
+    padding: 20px;
+    background-color: white;
+}
+.river-text-box {
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
