@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tech Archive | Home</title>
 </head>
 <body>
@@ -17,18 +18,23 @@
                 <a href="index.html">Home</a>
                 <a href="history.html">The History</a>
                 <a href="future.html">What the Future Holds</a>
+                <div class="search-container">
+                  <form action="https://www.google.com/cse.js?cx=40e7c530d5d51427a">
+                    <input type="hidden" name="cx" value="40e7c530d5d51427a">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <input type="text" placeholder="Search.." name="q">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
             </nav>
-            <div id="header-box">
-                <img class="header-background" src="images/home2.jpg" alt="Header Background">
-            </div>    
         </header>
         <main>
             <div class="history-page-box">
-                <h1>The History of Computers and Technology</h1>
+                <h1 class="history-title">The History of<br> Computers<br> and Technology</h1>
                 <img class="history-page-background" src="images/historybanner.jpg" alt="history background">
             </div>
             <section class="history-page-info">
-                <p>The history of computers dates back to the early 1800s when Charles Babbage designed a calculating machine called the Difference Engine. This was followed by the invention of the first programmable computing machine in the 1940s, the Digital Delay Storage Automatic Calculator. In the 1950s, the first commercial computer, the IBM 701, was introduced, followed by the first personal computer, the Commodore PET, in 1977. In the early 2000s, the popularity of smartphones and tablets increased which resulted in the transition of computer technology to a more user-friendly digital era.</p>
+                <p>▶ The history of computers dates back to the early 1800s when Charles Babbage designed a calculating machine called the Difference Engine. This was followed by the invention of the first programmable computing machine in the 1940s, the Digital Delay Storage Automatic Calculator. In the 1950s, the first commercial computer, the IBM 701, was introduced, followed by the first personal computer, the Commodore PET, in 1977. In the early 2000s, the popularity of smartphones and tablets increased which resulted in the transition of computer technology to a more user-friendly digital era.</p>
             </section>
             <div class="history-page-images">
                 <img class="h-page-image1" src="images/history1.jpg" alt="old computer">
@@ -36,16 +42,18 @@
             </div>
         </main>
         <footer>
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="facebook icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-            <p><a href="site-plan.html">Site Plan</a></p>
+            <div id="social-icons-background">
+                <a href="https://facebook.com" target="_blank">
+                    <img class="social-button" src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img class="social-button" src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img class="social-button" src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+            <p><a class="siteplan" href="site-plan.html">Site Plan</a></p>
             <p>Tech Archive &copy; 2023 - All rights reserved.</p>
         </footer>
     </div>

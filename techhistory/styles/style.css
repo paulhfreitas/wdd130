@@ -96,8 +96,8 @@
     .link-button {
         margin: 80px;
         border: #0C605C 5px solid;
-        text-decoration: none;
         color: white;
+        font-size: 1.1em;
     }
     .home-links-image {
         width: 100%;
@@ -108,6 +108,9 @@
     }
     .social-button {
         padding: 10px;
+    }
+    .intro-title {
+        font-size: 2.1em;
     }
     #social-icons-background {
         margin: 0 auto;
@@ -148,4 +151,41 @@
       
     nav .search-container button:hover {
         background: #ccc;
+    }
+    .history-page-box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .history-page-background {
+        width: 100%;
+        grid-column: 1/4;
+        grid-row: 1/4;
+        z-index: -1;
+        position: relative;
+    }
+    .history-title {
+        background-color: #EFF6E0;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 80px;
+        font-family: Gloock;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .history-page-info {
+        padding: 80px;
+        font-size: 1.5em;
+        border-top: black 5px solid;
+    }
+    .history-page-images {
+        display: grid;
+        grid-template-columns: auto auto;
+        border-top: 20px #0C605C double;
+        margin-bottom: 20px;
+    }
+    .h-page-image1 {
+        max-width: 100%;
+    }
+    .h-page-image2 {
+        max-width: 100%;
     }
